@@ -3,7 +3,7 @@ require 'fluent/filter'
 module Fluent
   class LogrusFilter < Filter
     # Register this filter as "passthru"
-    Fluent::Plugin.register_filter('log', self)
+    Fluent::Plugin.register_filter('logrus', self)
 
     # config_param works like other plugins
 
